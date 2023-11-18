@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main{
+  
+    min-height: 100vh;
+    width: 100%;
+}
+
+.section{
+    min-height: calc(100vh - 10vh);
+    padding: 3vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    width: 80%;
+    background-color:transparent;
+    color: rgb(233, 233, 233);
+    font-size: 1.2rem; 
+    padding: 1rem;
+    border-radius: 1rem;   
+}
+
+
+.form-box{   
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #d1e0e0;
+    border-radius: 50px;
+    
+}
+
+
+.form-block{
+    width: 50%;
+    padding: 1.5rem 0.8rem;
+
+}
+
+
+.text-label{
+    display: block;
+    margin: 0.3rem 0;
+}
+
+
+.text-input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 3px solid #d1e0e0;
+    color: white;
+    margin: 0.3rem 0;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+}
+
+.text-input:hover{
+
+transform: scale(1.01);
+}
+
+.area-height{
+    min-height: 11vh;
+}
+
+.no-resize{
+    resize: none;
+}
+
+.form-button{
+    display: block;
+    width: 100%;
+    background-color: #30325a;
+    color: white;
+    font-size: 1.3rem;
+    margin: 0.3rem 0;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+    outline: none;
+    border: 3px solid #d1e0e0;
+    border-radius: 50px;
+}
+
+.form-button:hover{
+    background-color: hwb(267 20% 62%);
+    transform: scale(1.01);
+}
+
+
+.flex-column{
+    flex-direction: column;
+}
+
+
+.full-width{
+    width: 100%;
+}
+
+.special{
+    width: 30%;
+}
+
+
+p{
+    margin: 0.3rem auto;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    .form-container{
+        width: 80%;
+    }
+
+    .flex-container{
+        width: 90%;
+    }
+
+    p{
+        line-height: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    h1{
+        font-size: 1.5rem;
+    }
+    .form-container{
+        width: 90%;
+    }
+
+    .form-block{
+        width: 100%;
+        padding: 0.5rem 0.2rem;
+    }
+
+    .flex-container{
+        width: 95%;
+        font-size: 1.2rem;
+    }
+
+    p{
+        margin: 0.2rem auto;
+        line-height: 1.2rem;
+    }
+      
+}

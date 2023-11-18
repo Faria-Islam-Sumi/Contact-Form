@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body{
+   background-image: url(image7.jpg);
+   background-size: cover;
+   text-align: center;
+}
+.nav-heading{
+    color: rgb(233, 233, 233);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.nav-heading a{
+    text-decoration: none;
+}
+.nav-heading h1{
+    color: white;
+
+}
+
+
+.contact-form{
+    margin-top: 100px;
+    color: #f4d6cc;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-form h1{
+    font-size: 32px;
+}
+
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    
+    outline: none;
+    border: 3px solid #f4d6cc;
+    color:#f4d6cc;
+    font-size: 18px;
+    margin-bottom: 18px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #9f6c5a;
+    
+    color: #fff;
+    border: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+form .submit:hover{
+    background: #7e5d5a;
+    cursor: pointer;
+}
+
+
